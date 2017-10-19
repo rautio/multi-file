@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register --colors -w ./test/*.spec.js",
+    "test-once": "mocha --compilers js:babel-core/register ./test/*.spec.js",
     "lint": "esw --watch src test",
     "build": "webpack -p --env build",
     "dev": "webpack --progress --colors --watch --env dev",
