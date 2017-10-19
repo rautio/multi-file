@@ -1,11 +1,18 @@
-## multi-file-reader
+[![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url]
+
+[travis-image]: https://travis-ci.org/rautio/multi-file-reader.svg?branch=master
+[travis-url]: https://travis-ci.org/rautio/multi-file-reader
+[npm-image]: https://img.shields.io/npm/v/multi-file-reader.svg
+[npm-url]: https://npmjs.org/package/multi-file-reader
+[downloads-image]: https://img.shields.io/npm/dm/multi-file-reader.svg
+[downloads-url]: https://npmjs.org/package/multi-file-reader
 
 Read multiple files line by line and run operations on the same lines from each file.
 
-## Install
+# Install
 ```npm install make-file-reader```
 
-## Code Example
+# Code Example
 
 ```javascript
 import mf from 'multi-file-reader';
@@ -46,12 +53,12 @@ mf.read('path-to-file1','path-to-file2',operation, function(err, result){
 });
 ```
 
-## Motivation
+# Motivation
 Perform operations line by line on files too large to load in memory.
 
-## Contributors
+# Contributors
 If you are interested in contributing please contact oskari.rautiainen@gmail.com
 
-## License
+# License
 
 [MIT](https://vjpr.mit-license.org)

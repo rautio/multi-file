@@ -1,8 +1,8 @@
 {
   "name": "multi-file-reader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Read multiple files line by line and run operations on the same lines from each file.",
-  "main": "index.js",
+  "main": "lib/multi-file-reader.min.js",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register --colors -w ./test/*.spec.js",
     "test-once": "mocha --compilers js:babel-core/register ./test/*.spec.js",
