@@ -8,7 +8,7 @@
     "lint": "esw --watch src test",
     "build": "webpack -p --env build",
     "dev": "webpack --progress --colors --watch --env dev",
-    "prepublish": "node_modules/babel-cli/bin/babel.js src --out-dir lib",
+    "prepublish": "npm run build",=
     "doc": "jsdoc src -r -d doc/ --private --readme README.md"
   },
   "author": {
@@ -16,8 +16,8 @@
     "email": "oskari.rautiainen@gmail.com"
   },
   "repository": {
-    "type":"git",
-    "url":"https://github.com/rautio/multi-file-reader.git"
+    "type": "git",
+    "url": "https://github.com/rautio/multi-file-reader.git"
   },
   "license": "ISC",
   "devDependencies": {
