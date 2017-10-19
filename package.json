@@ -8,7 +8,7 @@
     "lint": "esw --watch src test",
     "build": "webpack -p --env build",
     "dev": "webpack --progress --colors --watch --env dev",
-    "prepublish": "npm run build",=
+    "prepublish": "npm run build",
     "doc": "jsdoc src -r -d doc/ --private --readme README.md"
   },
   "author": {
