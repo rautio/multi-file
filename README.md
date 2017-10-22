@@ -9,8 +9,12 @@
 
 Read multiple files line by line and run operations on the same lines from each file.
 
+# THIS PROJECT IS DEPRECATED
+
+This module is deprecated. Please use [iterate-multiple-files](https://www.npmjs.com/package/iterate-multiple-files) instead. It has a more future-proof design and is a better tested evolution of this package. Also it will support more functionality and already allows you to iterate through more than 2 files at once (this package is limited to 2).
+
 # Install
-```npm install make-file-reader```
+```npm install multi-file-reader```
 
 # Code Example
 

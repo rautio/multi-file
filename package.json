@@ -1,6 +1,6 @@
 {
   "name": "multi-file-reader",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Read multiple files line by line and run operations on the same lines from each file.",
   "main": "lib/multi-file-reader.min.js",
   "scripts": {
